@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*
+Basic styling
+*/
+.accordionHeader {
+    background-color: #b5bdcf;
+    cursor: pointer;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #777;
+    
+}
+
+.accordionBody {
+    background-color:#f2f2f2;
+    margin-bottom: 0px;
+}
+
+.panel {
+    border: 1px solid #333;
+    
+}
+
+h4 {
+    font-size: 30px;
+}
