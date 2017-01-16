@@ -1,23 +1,41 @@
 {
-  "name": "todo-app",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "0.8.5"
-  },
-  "dependencies": {
-    "axios": "^0.15.3",
-    "bootstrap": "^3.3.7",
-    "events": "^1.1.1", 
-    "flux": "^3.1.2",
-    "react": "^15.4.2",
-    "react-bootstrap": "^0.30.7",
-    "react-dom": "^15.4.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "name": "accordion-app",
+    "version": "0.1.0",
+    "private": true,
+    "description": "A simple solution (primarily as a self-study initiative) for an accordion-like interaction using ReactJS and Flux. See README for more information.",
+    "readmeFilename": "README.md",
+    "keywords": ["react", "flux", "accordion", "reactjs"], 
+    "homepage": "https://github.com/arunmenon1975/react-flux-simple-accordion",
+    "author": { 
+        "name": "Arun Menon",
+        "email": "arunmenon1975@yahoo.com"
+    },
+    "main": "src/index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arunmenon1975/react-flux-simple-accordion"
+    },
+    "bugs": {
+        "url": "https://github.com/arunmenon1975/react-flux-simple-accordion/issues",
+        "email": "arunmenon1975@yahoo.com"
+    },
+    "devDependencies": {
+        "react-scripts": "0.8.5"
+    },
+    "dependencies": {
+        "axios": "^0.15.3",
+        "bootstrap": "^3.3.7",
+        "events": "^1.1.1",
+        "flux": "^3.1.2",
+        "react": "^15.4.2",
+        "react-bootstrap": "^0.30.7",
+        "react-dom": "^15.4.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
 }
